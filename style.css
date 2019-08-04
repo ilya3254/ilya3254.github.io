@@ -1,0 +1,661 @@
+@import url('http://fonts.fontstorage.com/import/bebasneue.css');
+
+body {
+	width: 1600px;
+	margin: 0 auto;
+}
+h2 {
+	display: inline-block;
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 400;
+}
+header {
+	position: relative;
+	height: 600px;
+}
+header > img {
+	position: relative;
+	top: 100px;
+}
+header .head {
+	position: absolute;
+	top: 227px;
+	left: 388px;
+}
+header .head p {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-weight: 600;
+	width: 162px;
+	height: 66px;
+	font-size: 90px;
+	position: relative;
+	top: -12px;
+}
+header .head p:last-child {
+	width: 510px;
+	height: 29px;
+	font-size: 36px;
+	position: absolute;
+	top: 198px;
+	left: 0px;
+}
+header nav {
+	width: 1600px;
+	height: 100px;
+	background-color: #252222;
+	position: fixed;
+	z-index: 9999;
+	top: 0px;
+}
+header nav > a {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 550px;
+	height: 100px;
+}
+header nav > a h2 {
+	margin-left: 357px;
+}
+header nav > a:hover h2 {
+	color: #D2D2D2;
+}
+header nav > ul {
+	display: inline-block;
+	position: absolute;
+	top: 47px;
+	left: 792px;
+}
+header nav ul li a {
+	font-family: 'Bebas Neue';
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+	display: inline-block;
+	width: 45px;
+	height: 32px;
+}
+header nav ul li {
+	width: 45px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li:hover a {
+	color: #65ba99;
+	border-bottom: 1px solid #65ba99;
+}
+header nav .icons {
+	position: absolute;
+	top: 36px;
+	left: 1091px;
+}
+header nav .icons a {
+	display: inline-block;
+	margin-right: 9px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-image: url('img/icons.png');
+}
+header nav .icons a:nth-child(2) {
+	background-position-x: -49px;
+}
+header nav .icons a:nth-child(3) {
+	background-position-x: -96px;
+}
+header nav .icons a:nth-child(4) {
+	background-position-x: -144px;
+}
+header nav .icons a:hover {
+	background-color: #0077B5;
+}
+header nav .icons a:nth-child(2):hover {
+	background-color: #3B5998;
+}
+header nav .icons a:nth-child(3):hover {
+	background-image: url('img/flickr.jpg');
+	background-position-x: 0;
+}
+header nav .icons a:nth-child(4):hover {
+	background-color: #1da1f2;
+}
+main .work {
+	width: 1600px;
+	height: 1739px;
+	padding-bottom: 102px;
+	background-color: #65ba99;
+	position: relative;
+}
+main .work h2 {
+	position: absolute;
+	top: 57px;
+	left: 711px;
+}
+main .work h3 {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	position: absolute;
+	top: 108px;
+	left: 617px;
+}
+main .work .images {
+	display: inline-block;
+	position: relative;
+	left: 330px;
+	top: 174px;
+	width: 940px;
+}
+main img {
+	vertical-align: bottom;
+}
+main .work .images .landscape-img, 
+main .work .images .portrait-img,
+main .work .images .cube-img,
+main .work .images .small-landscape-img {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+main .work .images .landscape-img > a, 
+main .work .images .landscape-img div, 
+main .work .images .portrait-img > a,
+main .work .images .portrait-img div, 
+main .work .images .cube-img > a,
+main .work .images .cube-img div,
+main .work .images .small-landscape-img > a,
+main .work .images .small-landscape-img div {
+	display: none;
+}
+main .work .images .landscape-img > div a,
+main .work .images .small-landscape-img > div a {
+	margin-right: 40px;
+}
+main .work .images .landscape-img > div a:first-child,
+main .work .images .small-landscape-img > div a:first-child {
+	margin-right: 36.25px;
+}
+main .work .images .landscape-img > div a:last-child,
+main .work .images .portrait-img > div a:last-child,
+main .work .images .cube-img > div a:last-child,
+main .work .images .small-landscape-img > div a:last-child {
+	margin-right: 0;
+}
+main .work .images .portrait-img > div a,
+main .work .images .cube-img > div a {
+	margin-right: 19px;
+}
+main .work .images .landscape-img:hover > a, 
+main .work .images .landscape-img:hover > div,
+main .work .images .portrait-img:hover > a,
+main .work .images .portrait-img:hover > div,
+main .work .images .cube-img:hover > a,
+main .work .images .cube-img:hover > div,
+main .work .images .small-landscape-img:hover > a, 
+main .work .images .small-landscape-img:hover > div {
+	display: inline;
+	position: absolute;
+}
+main .work .images .landscape-img:hover > a {
+	top: 115px;
+	left: 222px;
+}
+main .work .images .landscape-img:hover > div {
+	top: 202px;
+	left: 118px;
+}
+main .work .images .portrait-img:hover > a {
+	top: 160px;
+	left: 105px;
+}
+main .work .images .portrait-img:hover > div {
+	top: 255px;
+	left: 80px;
+}
+main .work .images .cube-img:hover > a {
+	top: 100px;
+	left: 105px;
+}
+main .work .images .cube-img:hover > div {
+	top: 155px;
+	left: 80px;
+}
+main .work .images .small-landscape-img:hover > a {
+	top: 100px;
+	left: 222px;
+}
+main .work .images .small-landscape-img:hover > div {
+	top: 186px;
+	left: 118px;
+}
+main .work .images .landscape-img:hover img,
+main .work .images .portrait-img:hover img,
+main .work .images .cube-img:hover img,
+main .work .images .small-landscape-img:hover img {
+	opacity: 0.5;
+}
+i {
+	color: #ffffff;
+	font-size: 26px;
+}
+i.fa-search-plus:hover {
+	color: #4A4AEE;
+}
+i.fa-images:hover {
+	color: #3EFF3E;
+}
+i.fa-link:hover {
+	color: #0077B5;
+}
+i.fa-info-circle:hover {
+	color: #EEEC20;
+}
+i.fa-heart:hover {
+	color: #EF3939;
+}
+main aside {
+	width: 1600px;
+	height: 300px;
+	background-image: url('img/photo_quote.jpg');
+	position: relative;
+}
+main aside .fa-quote-left {
+	position: absolute;
+	top: 103px;
+	left: 413px;
+}
+main aside .fa-flip-horizontal {
+	position: absolute;
+	top: 186px;
+	left: 1145px;
+}
+main aside p {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	position: absolute;
+	top: 124px;
+	left: 466px;
+	width: 668px;
+	text-align: center;
+}
+main aside span {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	position: absolute;
+	top: 239px;
+	left: 1034px;
+}
+main .news {
+	width: 1600px;
+	height: 680px;
+	background-color: #cdcdcd;
+	position: relative;
+}
+main .news h2, 
+main .bio h2, 
+main .contact h2 {
+	position: absolute;
+	font-family: 'Bebas Neue';
+	color: #252222;
+	font-size: 48px;
+	font-weight: 400;
+}
+main .news h2 {
+	top: 77px;
+	left: 746px;
+}
+main .news .main .date {
+	width: 140px;
+	height: 20px;
+	background-color: #59a386;
+	font-family: 'Open Sans';
+	color: #fffffe;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 20.8px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 189px;
+	left: 331px;
+}
+main .news .main .tags {
+	position: absolute;
+	top: 194px;
+	left: 656px;
+}
+main .news .main .tags i {
+	color: #62b9b0;
+	font-size: 14px;
+}
+main .news .main .tags span {
+	font-family: 'Open Sans';
+	color: #e74c3c;
+	font-size: 12px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 20.8px;
+	margin-left: 5px;
+}
+ main .news .main .tags span a {
+ 	color: #e74c3c;
+ }
+main .news .main section {
+	position: absolute;
+	top: 233px;
+	left: 330px;
+}
+main .news .main section h3 {
+	font-family: 'Open Sans';
+	color: #59a386;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20.8px;
+	margin-bottom: 11px;
+}
+main .news .main section p {
+	font-family: 'Open Sans';
+	color: #666767;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.8px;
+	width: 434px;
+	margin-top: 18px;
+	margin-bottom: 12px;
+	position: relative;
+	left: 4px;
+}
+main .news .main section a {
+	font-family: 'Open Sans';
+	color: #e2534b;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.8px;
+	position: relative;
+	left: 336px;
+}
+main .news .main section a i {
+	color: #e2534b;
+	font-size: 14px;
+	margin-left: 16px;
+}
+main .news .main section a:hover, 
+main .news .main section a:hover i,
+main .news .main .tags span a:hover {
+	color: #FF0D00;
+}
+main .news .other {
+	position: relative;
+	top: 197px;
+	left: 871px;
+	width: 500px;
+}
+main .news .other .tags {
+	width: 426px;
+}
+main .news .other .tags h3 {
+	font-family: 'Bebas Neue';
+	color: #59a386;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+main .news .other .tags span {
+	display: inline-block;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 11px;
+	padding-right: 11px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	background-color: #59a386;
+	font-family: 'Open Sans';
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.8px;
+}
+main .news .other .tags span:hover {
+	background-color: #518F77;
+}
+main .news .other .tags span:active {
+	background-color: #e2534b;
+}
+main .news .other .blog {
+	margin-top: 51px;
+}
+main .news .other .blog h3 {
+	font-size: 20px;
+	font-style: italic;
+	line-height: 24px;
+	font-family: 'Open Sans';
+	color: #818181;
+	margin-bottom: 23px;
+}
+main .news .other .blog h3 span {
+	font-size: 20px;
+	font-style: normal;
+	line-height: 24px;
+	font-family: 'Open Sans';
+	color: #252222;
+	font-weight: 400;
+}
+main .news .other .blog article {
+	width: 405px;
+	height: 70px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+main .news .other .blog article:hover {
+	background-color: #C3C3C3;
+}
+main .news .other .blog article img {
+	float: left;
+	margin-right: 18px;
+}
+main .news .other .blog article p {
+	font-family: 'Open Sans';
+	color: #252222;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19.5px;
+	width: 310px;
+	overflow: hidden;
+	position: relative;
+	top: -1px;
+}
+main .news .other .blog article p:last-child {
+	color: rgba(226, 83, 75, 0.5);
+	font-weight: 600;
+	top: -4px;
+}
+main .partners {
+	position: relative;
+	width: 1600px;
+	height: 200px;
+	background-color: #bebebe;
+}
+main .partners img {
+	position: absolute;
+	top: 77px;
+	left: 345px;
+}
+main .partners a {
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	top: 77px;
+}
+main .partners a:nth-child(2) {
+	left: 345px;
+}
+main .partners a:nth-child(3) {
+	width: 143px;
+	left: 578px;
+}
+main .partners a:nth-child(4) {
+	width: 246px;
+	left: 790px;
+}
+main .partners a:nth-child(5) {
+	width: 146px;
+	left: 1099px;
+}
+main .bio {
+	position: relative;
+	width: 1600px;
+	height: 600px;
+	background-color: #e2534b;
+}
+main .bio h2 {
+	top: 51px;
+	left: 764px;
+}
+main .bio .js {
+	position: absolute;
+	top: 145px;
+	left: 444px;
+}
+main .bio .js h3 {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 18px;
+	position: relative;
+	left: 51px;
+}
+main .bio .js .avatar img {
+	position: relative;
+	top: 45px;
+}
+main .bio .js .icons {
+	position: absolute;
+	top: 335px;
+	left: 24px;
+}
+main .bio .js .icons a {
+	display: inline-block;
+	margin-right: 9px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-image: url('img/icons.png');
+}
+main .bio .js .icons a:nth-child(2) {
+	background-position-x: -49px;
+}
+main .bio .js .icons a:nth-child(3) {
+	background-position-x: -96px;
+}
+main .bio .js .icons a:nth-child(4) {
+	background-position-x: -144px;
+}
+main .bio .js .icons a:hover {
+	background-color: #0077B5;
+}
+main .bio .js .icons a:nth-child(2):hover {
+	background-color: #3B5998;
+}
+main .bio .js .icons a:nth-child(3):hover {
+	background-image: url('img/flickr.jpg');
+	background-position-x: 0;
+}
+main .bio .js .icons a:nth-child(4):hover {
+	background-color: #1da1f2;
+}
+main > .bio > .bio {
+	position: absolute;
+	top: 151px;
+	left: 813px;
+	width: 450px;
+	height: 350px;
+}
+main > .bio > .bio h3 {
+ 	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 22px;
+}
+main > .bio > .bio p {
+	font-family: 'Open Sans';
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+footer {
+	position: relative;
+	width: 1600px;
+	height: 530px;
+	background-image: url('img/footer.jpg');
+}
+footer h2 {
+	font-family: 'Bebas Neue';
+	color: #252222;
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 57px;
+	left: 723px;
+}
+footer .tel {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 18px;
+	position: absolute;
+	top: 162px;
+	left: 667px;
+}
+footer .email {
+	width: 690px;
+	height: 90px;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-style: solid;
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 400;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 221px;
+	left: 448px;
+}
+footer .address {
+	font-family: 'Bebas Neue';
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	position: absolute;
+	top: 348px;
+	left: 589px;
+}
+footer .footer {
+	font-family: 'Open Sans';
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	position: absolute;
+	top: 482px;
+	left: 597px;
+}
